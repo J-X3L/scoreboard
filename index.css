@@ -45,6 +45,7 @@ h3{
     padding: 8px 3px 3px 4px;
     margin-bottom: 20px;
     border-radius: 10px;
+    align-text: wrap;
 }
 button{
     border: 1px solid #9AABD8;
@@ -59,4 +60,19 @@ button{
 button:hover{
     background-color: #0a0e20;
     color: white;
+}
+#rest{
+    background-color:#F94F6D;
+    color: white;
+    border: none;
+    width: 100px;
+    display: block;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-family: CursedTimerUlil-Aznm;
+}
+
+#rest:hover{
+    background-color: #976e76;
 }
