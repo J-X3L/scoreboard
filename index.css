@@ -1,8 +1,62 @@
+@font-face{
+    font-family: CursedTimerUlil-Aznm;
+    src:url(./font/CursedTimerUlil-Aznm.ttf) format(woff2);
+}
 body {
-    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("https://i.pinimg.com/736x/98/e3/3d/98e33d0f282e8112f261041b971e8335.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    background-color: #1B244A;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 8px 10px 9px #a8a3a3;
+    transition: 0.3s ease;
+}
+.container:hover{
+    box-shadow: 10px 12px 9px #a8a3a3;
+}
+h3{
+    font-family: Open sans;
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+}
+
+#home, #away{
+    font-family: CursedTimerUlil-Aznm;
+    color: #F94F6D;
+}
+.dk{
+    background-color: black;
+    padding: 8px 3px 3px 4px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+button{
+    border: 1px solid #9AABD8;
+    background-color: #1B244A;
+    border-radius: 8px;
+    color: #9AABD8;
+    padding: 10px 12px 10px 12px; 
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.4s ease;
+}
+button:hover{
+    background-color: #0a0e20;
+    color: white;
 }
